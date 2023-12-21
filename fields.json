@@ -23,6 +23,13 @@
       "default" : {
         "color" : "#FFFFFF",
         "opacity" : 100
+      },
+      "inherited_value": {
+        "default_value_path": "theme.primary_color",
+        "property_value_paths": {
+          "color": "theme.primary_color.color",
+          "opacity": "theme.primary_color.opacity"
+        }
       }
     } ],
     "tab" : "STYLE",
@@ -58,6 +65,16 @@
         "font_set" : "GOOGLE",
         "color" : "#000000",
         "styles" : { }
+      },
+      "inherited_value": {
+        "default_value_path": "theme.body_font",
+        "property_value_paths": {
+          "font": "theme.body_font.font",
+          "fallback": "theme.body_font.fallback",
+          "variant": "theme.body_font.variant",
+          "font_set": "theme.body_font.font_set",
+          "color": "theme.body_font.color"
+        }
       }
     } ],
     "tab" : "STYLE",
@@ -92,7 +109,15 @@
       "default" : {
         "color" : "#eeeeee",
         "opacity" : 100
+      },
+      "inherited_value": {
+        "default_value_path": "theme.primary_color",
+        "property_value_paths": {
+          "color": "theme.primary_color.color",
+          "opacity": "theme.primary_color.opacity"
+        }
       }
+
     }, {
       "id" : "2b37b1de-5595-ef38-5139-2bc50aad2724",
       "name" : "menu_font",
@@ -110,7 +135,18 @@
         "variant" : "700",
         "font_set" : "GOOGLE",
         "styles" : { }
+      },
+      "inherited_value": {
+        "default_value_path": "theme.body_font",
+        "property_value_paths": {
+          "font": "theme.body_font.font",
+          "fallback": "theme.body_font.fallback",
+          "variant": "theme.body_font.variant",
+          "font_set": "theme.body_font.font_set",
+          "color": "theme.body_font.color"
+        }
       }
+
     }, {
       "id" : "c3907900-6d7e-fa8e-2081-063d7f90a039",
       "name" : "menu_border_radius",
@@ -134,6 +170,13 @@
       "default" : {
         "color" : "#3D85C6",
         "opacity" : 100
+      },
+      "inherited_value": {
+        "default_value_path": "theme.primary_color",
+        "property_value_paths": {
+          "color": "theme.primary_color.color",
+          "opacity": "theme.primary_color.opacity"
+        }
       }
     }, {
       "id" : "1b2501ee-0712-216d-21a5-edb6cce51d66",
@@ -146,6 +189,13 @@
       "default" : {
         "color" : "#FFFFFF",
         "opacity" : 100
+      },
+      "inherited_value": {
+        "default_value_path": "theme.primary_color",
+        "property_value_paths": {
+          "color": "theme.primary_color.color",
+          "opacity": "theme.primary_color.opacity"
+        }
       }
     } ],
     "tab" : "STYLE",
@@ -263,7 +313,18 @@
         "fallback" : null,
         "variant" : null,
         "font_set" : "DEFAULT"
+      },
+      "inherited_value": {
+        "default_value_path": "theme.body_font",
+        "property_value_paths": {
+          "font": "theme.body_font.font",
+          "fallback": "theme.body_font.fallback",
+          "variant": "theme.body_font.variant",
+          "font_set": "theme.body_font.font_set",
+          "color": "theme.body_font.color"
+        }
       }
+
     }, {
       "id" : "3e91bf76-c0a5-3987-935c-132549470c04",
       "name" : "portfolio_subtitle_font",
@@ -280,7 +341,18 @@
         "fallback" : null,
         "variant" : null,
         "font_set" : "DEFAULT"
+      },
+      "inherited_value": {
+        "default_value_path": "theme.body_font",
+        "property_value_paths": {
+          "font": "theme.body_font.font",
+          "fallback": "theme.body_font.fallback",
+          "variant": "theme.body_font.variant",
+          "font_set": "theme.body_font.font_set",
+          "color": "theme.body_font.color"
+        }
       }
+
     } ],
     "tab" : "STYLE",
     "expanded" : false,
