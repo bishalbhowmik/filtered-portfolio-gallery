@@ -1,0 +1,41 @@
+{
+  "content_tags" : [ {
+    "name" : "ANIMATION",
+    "source" : "USER"
+  }, {
+    "name" : "BUTTONS",
+    "source" : "USER"
+  }, {
+    "name" : "IMAGE",
+    "source" : "USER"
+  }, {
+    "name" : "MENU",
+    "source" : "USER"
+  }, {
+    "name" : "TEXT",
+    "source" : "USER"
+  }, {
+    "name" : "GALLERY",
+    "source" : "USER"
+  }, {
+    "name" : "HEADERS",
+    "source" : "USER"
+  }, {
+    "name" : "NAVIGATION",
+    "source" : "USER"
+  }, {
+    "name" : "LAYOUT",
+    "source" : "USER"
+  }, {
+    "name" : "BRANDING",
+    "source" : "USER"
+  }, {
+    "name" : "INTERACTION",
+    "source" : "USER"
+  } ],
+  "global" : false,
+  "categories" : [ "BODY_CONTENT", "DESIGN", "TEXT" ],
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 148716613651,
+  "is_available_for_new_content" : true
+}

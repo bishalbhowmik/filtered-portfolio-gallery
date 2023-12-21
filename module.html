@@ -1,0 +1,149 @@
+<section class="filtered-portfolio-gallery__container">
+
+<!--   Portfolio Gallery Title -->
+  
+<div class="filtered-portfolio-gallery__header">
+    
+     {{ module.portfolio_gallery_title }}
+
+  </div>
+
+<!--   Portfolio Gallery Menu -->
+  
+<div>
+    <ul>
+      
+      
+	 <li class="filtered-portfolio-gallery__list filtered-portfolio-gallery__active" data-filter="All">All</li>
+
+      
+    
+    {% for item in module.portfolio %}
+      <li class="filtered-portfolio-gallery__list" data-filter="{{item.portfolio_menu_name }}">{{ item.portfolio_menu_name }}</li>
+    {% endfor %}
+  </ul>
+</div>
+  
+<!--   Portfolio Gallery Projects Items -->
+  
+<div class="filtered-portfolio-gallery__items">
+   {% for item in module.portfolio %}
+    {% for item2 in item.portfolio_information %}
+    <div class="filtered-portfolio-gallery__itembox" data-item="{{item.portfolio_menu_name }}">
+      <a href="{{ item2.portfolio_url }}" target="_blank">
+      <img src="{{ item2.portfolio_image.src }}" alt="{{ item2.portfolio_image.alt }}" />
+      
+       <div class="filtered-portfolio-gallery__content">
+            <h2>
+             {{item2.portfolio_title.portfolio_title}}
+            </h2>
+            <p>
+              {{ item2.portfolio_title.portfolio_subtitle}}
+            </p>
+        </div>
+        </a>
+    </div>
+    {% endfor %}
+  {% endfor %}
+  </div>
+</section>
+
+
+
+<!-- Portfolio Gallery CSS -->
+
+{% require_css %}
+<style>
+
+  {% scope_css %}
+/*   Module Background Color */
+  
+  .filtered-portfolio-gallery__container {
+  background-color:  {{ module.style.module_background.module_background.color }};  
+  opacity: {{'0.'+bg if module.style.module_background.module_background.opacity < 100 else '1'}};
+  opacity: {{module.style.module_background.module_background.opacity / 100}}
+}
+  
+/*   Portfolio Header Title */
+
+  .filtered-portfolio-gallery__header{
+  text-align: center;
+  padding: 20px;  
+  font-family: {{ module.style.portfolio_gallery_title_font.portfolio_gallery_title_font.font }};
+  {{ module.style.portfolio_gallery_title_font.portfolio_gallery_title_font.style }}; 
+  color: {{ module.style.portfolio_gallery_title_font.portfolio_gallery_title_font.color }}; 
+  font-size: {{ module.style.portfolio_gallery_title_font.portfolio_gallery_title_font.size }}px;
+}
+ 
+
+  
+ 
+  .filtered-portfolio-gallery__container ul li {
+   
+  background-color:  {{ module.style.menu.menu_background_color.color }};
+  opacity: {{'0.'+bg if module.style.menu.menu_background_color.opacity < 100 else '1'}};
+  opacity: {{module.style.menu.menu_background_color.opacity / 100}};
+      
+   font-family: {{ module.style.menu.menu_font.font }}; 
+               {{ module.style.menu.menu_font.style }};
+  color: {{ module.style.menu.menu_font.color }};
+  font-size: {{ module.style.menu.menu_font.size }}px;
+  border-radius: {{ module.style.menu.menu_border_radius }}px;
+      
+}
+  
+  
+   .filtered-portfolio-gallery__container ul .filtered-portfolio-gallery__active {
+    background-color: {{ module.style.menu.selected_menu_background_color.color }};
+    opacity: {{'0.'+bg if module.style.menu.selected_menu_background_color.opacity < 100 else '1'}};
+    opacity: {{module.style.menu.selected_menu_background_color.opacity / 100}};
+    color: {{ module.style.menu.selected_menu_text_color.color }};
+      
+}
+  
+  /*   Project Items */
+   .filtered-portfolio-gallery__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: {{ module.style.image.gap_between_portfolio_image }}px;
+     
+}
+  
+  .filtered-portfolio-gallery__items .filtered-portfolio-gallery__itembox {
+    
+    width: {{ module.style.image.portfolio_image_width }}px;
+    height: {{ module.style.image.portfolio_image_height}}px;
+     
+}
+  
+
+  
+  .filtered-portfolio-gallery__items .filtered-portfolio-gallery__itembox img, .filtered-portfolio-gallery__content {
+     border-radius: {{ module.style.image.portfolio_image_border_radius }}px; 
+  }
+  
+  /*   Project Title*/
+  
+  .filtered-portfolio-gallery__content h2 {    
+  font-family: {{ module.style.title_subtitle.portfolio_title_font.font }};
+               {{ module.style.title_subtitle.portfolio_title_font.style }};
+  color: {{ module.style.title_subtitle.portfolio_title_font.color }};
+  font-size: {{ module.style.title_subtitle.portfolio_title_font.size }}px;
+}
+  
+
+/*   Project Subtitle  */
+  .filtered-portfolio-gallery__content p {
+    font-family: {{ module.style.title_subtitle.portfolio_subtitle_font.font }}; 
+                {{ module.style.title_subtitle.portfolio_subtitle_font.style }}; 
+  color: {{ module.style.title_subtitle.portfolio_subtitle_font.color }}; 
+  font-size: {{ module.style.title_subtitle.portfolio_subtitle_font.size }}px;
+ }
+  
+  {% end_scope_css %}
+  
+</style>
+
+{% end_require_css %}

@@ -1,0 +1,587 @@
+[ {
+  "id" : "cee0f830-a05c-a32c-b2d9-b06dabf3f409",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Portfolio Styles",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "0706247c-03d6-e58e-eaf5-e35aa76a3944",
+    "name" : "module_background",
+    "display_width" : null,
+    "label" : "Module Background",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "b66ae90a-a74d-7005-baad-9216fea4f955",
+      "name" : "module_background",
+      "display_width" : null,
+      "label" : "Module Background",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "default" : {
+        "color" : "#FFFFFF",
+        "opacity" : 100
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "module_background" : {
+        "color" : "#FFFFFF",
+        "opacity" : 100
+      }
+    }
+  }, {
+    "id" : "3ab9f1f4-3db9-0278-7f9f-9b52949a6e50",
+    "name" : "portfolio_gallery_title_font",
+    "display_width" : null,
+    "label" : "Portfolio Gallery Title Font",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "881e9e70-4ba3-513b-4b87-cedddd6d0cfa",
+      "name" : "portfolio_gallery_title_font",
+      "display_width" : null,
+      "label" : "Portfolio Gallery Title Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "default" : {
+        "size" : 45,
+        "font" : "Poppins",
+        "fallback" : "sans-serif",
+        "variant" : "700",
+        "font_set" : "GOOGLE",
+        "color" : "#000000",
+        "styles" : { }
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "portfolio_gallery_title_font" : {
+        "size" : 45,
+        "font" : "Poppins",
+        "fallback" : "sans-serif",
+        "variant" : "700",
+        "font_set" : "GOOGLE",
+        "color" : "#000000",
+        "styles" : { }
+      }
+    }
+  }, {
+    "id" : "6d6874e3-cfb1-89cf-0310-b64e5f494709",
+    "name" : "menu",
+    "display_width" : null,
+    "label" : "Menu",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "151c43ea-a0b0-951c-6134-54f4bcaf4141",
+      "name" : "menu_background_color",
+      "display_width" : null,
+      "label" : "Menu Background Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "default" : {
+        "color" : "#eeeeee",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "2b37b1de-5595-ef38-5139-2bc50aad2724",
+      "name" : "menu_font",
+      "display_width" : null,
+      "label" : "Menu Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "default" : {
+        "size" : 15,
+        "color" : "#000000",
+        "font" : "Raleway",
+        "fallback" : "sans-serif",
+        "variant" : "700",
+        "font_set" : "GOOGLE",
+        "styles" : { }
+      }
+    }, {
+      "id" : "c3907900-6d7e-fa8e-2081-063d7f90a039",
+      "name" : "menu_border_radius",
+      "display_width" : null,
+      "label" : "Menu Border Radius",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "default" : 5
+    }, {
+      "id" : "9ec6d165-8654-edc1-e83d-dc380df7c3ec",
+      "name" : "selected_menu_background_color",
+      "display_width" : null,
+      "label" : "Selected Menu Background Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "default" : {
+        "color" : "#3D85C6",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "1b2501ee-0712-216d-21a5-edb6cce51d66",
+      "name" : "selected_menu_text_color",
+      "display_width" : null,
+      "label" : "Selected Menu Text Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "default" : {
+        "color" : "#FFFFFF",
+        "opacity" : 100
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "menu_background_color" : {
+        "color" : "#eeeeee",
+        "opacity" : 100
+      },
+      "menu_font" : {
+        "size" : 15,
+        "color" : "#000000",
+        "font" : "Raleway",
+        "fallback" : "sans-serif",
+        "variant" : "700",
+        "font_set" : "GOOGLE",
+        "styles" : { }
+      },
+      "menu_border_radius" : 5,
+      "selected_menu_background_color" : {
+        "color" : "#3D85C6",
+        "opacity" : 100
+      },
+      "selected_menu_text_color" : {
+        "color" : "#FFFFFF",
+        "opacity" : 100
+      }
+    }
+  }, {
+    "id" : "4c5573c6-d657-3b1e-25f8-bae5fd862536",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "f1178f95-4b5c-4d51-1b6b-d9458ee09d98",
+      "name" : "portfolio_image_width",
+      "display_width" : null,
+      "label" : "Project Image Width",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "default" : 200
+    }, {
+      "id" : "e95b0d6c-b3be-beb8-a466-7c09621a81e2",
+      "name" : "portfolio_image_height",
+      "display_width" : null,
+      "label" : "Project Image Height",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "default" : 200
+    }, {
+      "id" : "0f9358c0-2be2-5efe-a552-fcf43dc6355b",
+      "name" : "portfolio_image_border_radius",
+      "display_width" : null,
+      "label" : "Project Image Border Radius",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "default" : 5
+    }, {
+      "id" : "0476d3be-bff3-98df-6706-6a2f26d20c73",
+      "name" : "gap_between_portfolio_image",
+      "display_width" : null,
+      "label" : "Gap Between Project Image",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "default" : 20
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "portfolio_image_width" : 200,
+      "portfolio_image_height" : 200,
+      "portfolio_image_border_radius" : 5,
+      "gap_between_portfolio_image" : 20
+    }
+  }, {
+    "id" : "901d5ff9-3a4b-b6f5-40f1-4d0c09795129",
+    "name" : "title_subtitle",
+    "display_width" : null,
+    "label" : "Title & Subtitle",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "897f5ac8-8558-317f-399f-dc4461933737",
+      "name" : "portfolio_title_font",
+      "display_width" : null,
+      "label" : "Project Title Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "default" : {
+        "color" : "#ffe100",
+        "size" : 25,
+        "font" : "'times new roman', times",
+        "fallback" : null,
+        "variant" : null,
+        "font_set" : "DEFAULT"
+      }
+    }, {
+      "id" : "3e91bf76-c0a5-3987-935c-132549470c04",
+      "name" : "portfolio_subtitle_font",
+      "display_width" : null,
+      "label" : "Project Subtitle Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "default" : {
+        "color" : "#FFFFFF",
+        "size" : 20,
+        "font" : "'times new roman', times",
+        "fallback" : null,
+        "variant" : null,
+        "font_set" : "DEFAULT"
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "portfolio_title_font" : {
+        "color" : "#ffe100",
+        "size" : 25,
+        "font" : "'times new roman', times",
+        "fallback" : null,
+        "variant" : null,
+        "font_set" : "DEFAULT"
+      },
+      "portfolio_subtitle_font" : {
+        "color" : "#FFFFFF",
+        "size" : 20,
+        "font" : "'times new roman', times",
+        "fallback" : null,
+        "variant" : null,
+        "font_set" : "DEFAULT"
+      }
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "module_background" : {
+      "module_background" : {
+        "color" : "#FFFFFF",
+        "opacity" : 100
+      }
+    },
+    "portfolio_gallery_title_font" : {
+      "portfolio_gallery_title_font" : {
+        "size" : 45,
+        "font" : "Poppins",
+        "fallback" : "sans-serif",
+        "variant" : "700",
+        "font_set" : "GOOGLE",
+        "color" : "#000000",
+        "styles" : { }
+      }
+    },
+    "menu" : {
+      "menu_background_color" : {
+        "color" : "#eeeeee",
+        "opacity" : 100
+      },
+      "menu_font" : {
+        "size" : 15,
+        "color" : "#000000",
+        "font" : "Raleway",
+        "fallback" : "sans-serif",
+        "variant" : "700",
+        "font_set" : "GOOGLE",
+        "styles" : { }
+      },
+      "menu_border_radius" : 5,
+      "selected_menu_background_color" : {
+        "color" : "#3D85C6",
+        "opacity" : 100
+      },
+      "selected_menu_text_color" : {
+        "color" : "#FFFFFF",
+        "opacity" : 100
+      }
+    },
+    "image" : {
+      "portfolio_image_width" : 200,
+      "portfolio_image_height" : 200,
+      "portfolio_image_border_radius" : 5,
+      "gap_between_portfolio_image" : 20
+    },
+    "title_subtitle" : {
+      "portfolio_title_font" : {
+        "color" : "#ffe100",
+        "size" : 25,
+        "font" : "'times new roman', times",
+        "fallback" : null,
+        "variant" : null,
+        "font_set" : "DEFAULT"
+      },
+      "portfolio_subtitle_font" : {
+        "color" : "#FFFFFF",
+        "size" : 20,
+        "font" : "'times new roman', times",
+        "fallback" : null,
+        "variant" : null,
+        "font_set" : "DEFAULT"
+      }
+    }
+  }
+}, {
+  "id" : "f5a59ce4-1153-84ed-075c-f6c82a63ae1d",
+  "name" : "portfolio_gallery_title",
+  "display_width" : null,
+  "label" : "Portfolio Gallery Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Filtered Portfolio Gallery"
+}, {
+  "id" : "46cb51ff-0929-3a0b-d48b-cc75a01f0482",
+  "name" : "portfolio",
+  "display_width" : null,
+  "label" : "Portfolio Gallery",
+  "inline_help_text" : "Clicking \"+Add\" allows you to include a menu and insert projects under those menu.",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "687af31e-0b24-eefe-4a7b-0159359850a5",
+    "name" : "portfolio_menu_name",
+    "display_width" : null,
+    "label" : "Portfolio Menu Name",
+    "inline_help_text" : "The default menu name is \"All,\" but feel free to customize it to your liking.\n\n\n",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "App"
+  }, {
+    "id" : "c86bde98-ad3b-41c8-a2ec-fb47e86a463f",
+    "name" : "portfolio_information",
+    "display_width" : null,
+    "label" : "Projects",
+    "inline_help_text" : "",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : null,
+      "max" : null,
+      "sorting_label_field" : null,
+      "default" : 1
+    },
+    "children" : [ {
+      "id" : "02fc273c-1e80-2680-c5a6-b1f89f26b8ee",
+      "name" : "portfolio_url",
+      "display_width" : null,
+      "label" : "Project Link",
+      "inline_help_text" : "Click the project image to go to the linked URL.",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "https://www.google.com/"
+    }, {
+      "id" : "5a7705a9-307f-72cb-8482-b6a370eaffa3",
+      "name" : "portfolio_image",
+      "display_width" : null,
+      "label" : "Project Image",
+      "required" : false,
+      "locked" : false,
+      "responsive" : true,
+      "resizable" : true,
+      "show_loading" : false,
+      "type" : "image",
+      "default" : {
+        "size_type" : "auto",
+        "src" : "https://44257520.fs1.hubspotusercontent-na1.net/hubfs/44257520/anete-lusina-zwsHjakE_iI-unsplash.jpg",
+        "alt" : "anete",
+        "loading" : "lazy",
+        "width" : 4256,
+        "height" : 2832,
+        "max_width" : 2000,
+        "max_height" : 1330.827067669173
+      }
+    }, {
+      "id" : "15d68ebd-012c-c78d-21ca-7424878cd39a",
+      "name" : "portfolio_title",
+      "display_width" : null,
+      "label" : "Project Description",
+      "inline_help_text" : "Provide your Project Title & Subtitle. They will appear when you hover over the image.",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "fc0922a6-ca50-9771-0ec8-a3db6ae826ba",
+        "name" : "portfolio_title",
+        "display_width" : null,
+        "label" : "Project Title",
+        "required" : false,
+        "locked" : false,
+        "validation_regex" : "",
+        "allow_new_line" : false,
+        "show_emoji_picker" : false,
+        "type" : "text",
+        "default" : "Title"
+      }, {
+        "id" : "c267bbdd-e574-fc0a-5d11-ad367902f641",
+        "name" : "portfolio_subtitle",
+        "display_width" : null,
+        "label" : "Project Subtitle",
+        "required" : false,
+        "locked" : false,
+        "validation_regex" : "",
+        "allow_new_line" : false,
+        "show_emoji_picker" : false,
+        "type" : "text",
+        "default" : "Subtitle"
+      } ],
+      "tab" : "CONTENT",
+      "expanded" : false,
+      "type" : "group",
+      "default" : {
+        "portfolio_title" : "Title",
+        "portfolio_subtitle" : "Subtitle"
+      }
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "type" : "group",
+    "default" : [ {
+      "portfolio_url" : "https://www.google.com/",
+      "portfolio_image" : {
+        "size_type" : "auto",
+        "src" : "https://44257520.fs1.hubspotusercontent-na1.net/hubfs/44257520/anete-lusina-zwsHjakE_iI-unsplash.jpg",
+        "alt" : "anete",
+        "loading" : "lazy",
+        "width" : 4256,
+        "height" : 2832,
+        "max_width" : 2000,
+        "max_height" : 1330.827067669173
+      },
+      "portfolio_title" : {
+        "portfolio_title" : "Title",
+        "portfolio_subtitle" : "Subtitle"
+      }
+    } ]
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "portfolio_menu_name" : "App",
+    "portfolio_information" : [ {
+      "portfolio_url" : "https://www.google.com/",
+      "portfolio_image" : {
+        "size_type" : "auto",
+        "src" : "https://44257520.fs1.hubspotusercontent-na1.net/hubfs/44257520/anete-lusina-zwsHjakE_iI-unsplash.jpg",
+        "alt" : "anete",
+        "loading" : "lazy",
+        "width" : 4256,
+        "height" : 2832,
+        "max_width" : 2000,
+        "max_height" : 1330.827067669173
+      },
+      "portfolio_title" : {
+        "portfolio_title" : "App",
+        "portfolio_subtitle" : "Subtitle"
+      }
+    } ]
+  }, {
+    "portfolio_menu_name" : "Creative",
+    "portfolio_information" : [ {
+      "portfolio_url" : "https://www.google.com/",
+      "portfolio_image" : {
+        "size_type" : "auto",
+        "src" : "https://assets.entrepreneur.com/content/3x2/2000/20190612193425-GettyImages-1066987316-crop.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380",
+        "alt" : "anete",
+        "loading" : "lazy",
+        "width" : 4256,
+        "height" : 2832,
+        "max_width" : 2000,
+        "max_height" : 1330.827067669173
+      },
+      "portfolio_title" : {
+        "portfolio_title" : "Creative",
+        "portfolio_subtitle" : "Subtitle"
+      }
+    } ]
+  }, {
+    "portfolio_menu_name" : "Branding",
+    "portfolio_information" : [ {
+      "portfolio_url" : "https://www.google.com/",
+      "portfolio_image" : {
+        "size_type" : "auto",
+        "src" : "https://www.currentconsulting.co.za/wp-content/uploads/2016/11/Branding.jpg",
+        "alt" : "anete",
+        "loading" : "lazy",
+        "width" : 4256,
+        "height" : 2832,
+        "max_width" : 2000,
+        "max_height" : 1330.827067669173
+      },
+      "portfolio_title" : {
+        "portfolio_title" : "Branding",
+        "portfolio_subtitle" : "Subtitle"
+      }
+    } ]
+  } ]
+} ]
